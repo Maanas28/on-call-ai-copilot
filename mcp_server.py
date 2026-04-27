@@ -50,4 +50,4 @@ def resolve_incident_tool(incident_id: str) -> dict:
 
 if __name__ == "__main__":
     print("Starting OnCall Demo MCP server...")
-    mcp.run()
+    mcp.run(transport="stdio")
